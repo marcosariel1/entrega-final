@@ -23,7 +23,9 @@ h5 {
 
 body {
   background-image: url(../imagenes/imagenblancoynegro.jpg);
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 /*HEADER*/
@@ -164,7 +166,7 @@ textarea {
 
 /*FOOTER*/
 .listaRedes {
-  font-size: small;
+  font-size: medium;
   margin: 1px;
 }
 .listaRedes:hover {
@@ -255,6 +257,12 @@ footer {
   /*footer*/
   .redesMovil {
     margin: 5px;
+  }
+  .listaRedes {
+    font-size: small;
+  }
+  .pie {
+    font-size: smaller;
   }
 }
 
