@@ -278,6 +278,10 @@ footer {
   .pie {
     font-size: smaller;
   }
+  footer nav ul {
+    padding-left: 0;
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */

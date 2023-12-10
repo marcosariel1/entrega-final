@@ -71,10 +71,14 @@
     .bio {
         padding: 0;
     }
+
     .botonSubir {
         right: 0;
-        width: 40px ;
-        & :hover {width: 45px;}
+        width: 40px;
+
+        & :hover {
+            width: 45px;
+        }
     }
 
     /*formulario*/
@@ -101,4 +105,7 @@
     .pie {
         font-size: smaller;
     }
+    footer nav ul {padding-left: 0;
+    text-align: center;}
+   
 }
