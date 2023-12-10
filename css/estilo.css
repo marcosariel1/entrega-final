@@ -257,6 +257,9 @@ footer {
     right: 0;
     width: 40px;
   }
+  .botonSubir :hover {
+    width: 45px;
+  }
   /*formulario*/
   form {
     margin: 10px;
