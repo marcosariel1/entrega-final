@@ -11,6 +11,12 @@ main {
     margin-bottom: 200px;
 }
 
+h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 p {
     font-size: larger;
 }
@@ -39,5 +45,10 @@ p {
     position: fixed;
     bottom: 20px;
     right: 20px;
+    transition: 0.5s;
+    &:hover {
+        width: 80px;
+    }
+ 
 
 }
